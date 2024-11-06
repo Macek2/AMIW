@@ -1,0 +1,3 @@
+zmieniamy styl menu głównego i stopki
+Czcionka linktów białą bez żadnych podkreśleń, pogrubiona, kolor tekstu w menu i stopce #dddddd
+Ponadto na całej stronie zmienić czcionkę na Helvetica

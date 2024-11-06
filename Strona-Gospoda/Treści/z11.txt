@@ -1,0 +1,1 @@
+Spozycjonuj element tak aby wyświetlał się na obrazie miniatury dania. Użyj przemieszczenia (translacji) o -17% na osi x i o -65% na osi y

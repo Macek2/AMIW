@@ -1,0 +1,1 @@
+Dodaj elementy menu dropdown - Zupy, Dania Główne, Desery, Napoje. Sformatuj je identycznie jak pozostałe elementy a - pamiętaj, że ostatni element u dołu powinien być odpowiednio zaokrąglony. Elementy powinny się wyświetlać jeden pod drugim, wyśrodkuj elementy.

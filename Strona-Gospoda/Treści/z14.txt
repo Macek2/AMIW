@@ -1,0 +1,1 @@
+Wprowadzamy responsywność strony. Dodaj modyfikator zmieniający style, gdy szerokość ekranu jest mniejsza niż 750px - użyj polecenia @media. Ustaw wówczas szerokość głównego diva #content na 100% oraz wyświetlanie kafelków tylko w pionie (wyśrodkuj kafelki - align-items)

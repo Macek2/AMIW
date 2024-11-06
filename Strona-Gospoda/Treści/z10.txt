@@ -1,0 +1,7 @@
+Dodaj do ramki obraz o szerokości 450px i opis dania. Pamiętaj o zaokrągleniu rogów obrazu. Zadbaj aby tekst wyświetlał się pod obrazem (obraz nie może być inline)
+
+Opisy:
+Kotlet schabowy z ziemniaczanymi łódeczkami.
+Pierogi z mięsem okraszone wędzoną słoniną i smażoną cebulką.
+Rosół z kury z domowym makaronem.
+Zupa pomidorowa krem z makaronem świderki.

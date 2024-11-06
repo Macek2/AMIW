@@ -1,0 +1,1 @@
+wykonaj podświetlenie elementu menu po najechaniu na niego, pamiętaj, że podświetlenie powinno przykrywać całe tło przycisku, a nie jedynie tekst. Pamiętaj o zaokrągleniu pierwszego i ostatniego elementu, jednak zwróć uwagę, że pierwszy element w stopce nie powinien być zaokrąglony.

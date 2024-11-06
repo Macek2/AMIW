@@ -1,0 +1,3 @@
+dodaj menu w headerze i w stopce - w stopce ma być wyrównane do prawej
+Menu zrobione za pomocą tagu nav i zawiera tagi a
+W footerze informacje o autorze, a ponadto link Kontaki i O nas

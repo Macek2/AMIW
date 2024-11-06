@@ -1,0 +1,38 @@
+h1{
+    color: red;
+}
+
+h3{
+    border: 5px solid red;
+    padding: 10px 20px 10px 20px;
+    width: 30%;
+    margin: auto;
+}
+
+div{
+    background-color: #cccccc;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+}
+
+ul, li{
+    display: inline;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+.special-link{
+    color: red;
+}
+
+#div{
+    border: 5px dotted cyan;
+}

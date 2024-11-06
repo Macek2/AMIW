@@ -1,0 +1,3 @@
+zmieniamy styl menu głównego i stopki
+dodajemy zaokrąglone (5px) tło o kolorze #222222, ponadto krawędź elementów wewnętrznych menu i stopki odsunięta od krawędzi stopki/menu o 10px
+Należy umieścić początkowy tekst stopki w drugim divie i jemu oraz elementom a stopki nadać padding: 10px. Uwaga: pamiętaj o osobnym odwołaniu do pierwszego i ostatniego diva w stopce

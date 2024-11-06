@@ -1,0 +1,2 @@
+Przesuwamy ostatni element menu górnego (Koszyk) do prawej strony
+Przesuwamy linki w stopce (Kontaki i O nas) jako jeden blok na prawą stronę (skorzystaj z elementu div umieszczając w nim oba linki)

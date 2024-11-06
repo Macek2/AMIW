@@ -1,0 +1,1 @@
+Dodaj do kafelków wyśrodkowany tytuł (nagłówek 2 stopnia), zdjęcie wyśrodkowane o szerokości 280px, wyśrodkowaną cenę, oraz wyśrodkowany przycisk Zamów z tłem #00aaff, zaokrągleniem 5px i kolorem tekstu #eeeeee, tekst bez podkreślenia i pogrubiony, padding 10px

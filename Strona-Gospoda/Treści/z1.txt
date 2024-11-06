@@ -1,0 +1,8 @@
+stwórz bazę
+
+struktura header content footer
+
+kolor tła #8899aa
+pod headerem odstęp 50px, nad footerem też odstęp 50px.
+Całość zajmuje 60% szerokości okna przeglądarki i jest wycentrowana
+Logo wycentrowane, zajmuje 100% szerokości całości (czyli także 60% okna przeglądarki)
