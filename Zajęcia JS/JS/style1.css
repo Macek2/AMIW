@@ -1,0 +1,42 @@
+a{
+ 
+	background-color: #00ccff;
+	margin: 20px;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+ 
+}
+ 
+.cl1{
+	background-color: #00bb00;
+	width: 200px;
+	margin-left: 20px;
+	margin-top: 50px;
+	padding: 20px;
+	color: white;
+}
+ 
+.cl2{
+	background-color: #aaaaff;
+	width: 300px;
+	margin-left: 20px;
+	margin-top: 50px;
+	padding: 20px;
+	color: white;
+	border-radius: 10px;
+}
+
+#user {
+    margin-top: 20px;
+}
+img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+button{
+    margin-top: 20px;
+}

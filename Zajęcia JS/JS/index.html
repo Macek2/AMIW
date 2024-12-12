@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Test</title>
+		<link rel="stylesheet" href="style1.css">
+		<script src="script.js"></script>
+	</head>
+	<body onload="load();">
+ 
+		<h1>Strona testowa</h1>
+ 
+		<a href="#" onClick="changeHeader(); toggleClass(); changeColor();">Klik</a>
+ 
+		<div class="cl1">
+			ZAWARTOŚĆ TESTOWA
+		</div>
+ 
+		<div class="cl1">
+			ZAWARTOŚĆ TESTOWA
+		</div>
+
+        <button onclick="fetchUser ()">Pobierz nowego użytkownika</button>
+        <div id="user"></div>
+        
+        <h3>Stoper</h3>
+        <div id="display">0</div>
+        <button onclick="startTimer()">Start</button>
+        <button onclick="stopTimer()">Stop</button>
+        <button onclick="resetTimer()">Reset</button>
+
+		<h2 onmouseover="changeParagraphColor(document.getElementById('paragraph'))" 
+        onmouseout="resetParagraphColor(document.getElementById('paragraph'))">Nagłówek 1</h2>
+ 
+		<p id="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis euismod ligula. Etiam pretium, purus a consectetur eleifend, nunc felis viverra orci, ut dictum mauris sapien in mi. Aliquam blandit blandit dignissim. Donec porta, lorem non pulvinar molestie, felis enim posuere dui, id cursus metus metus et nulla. Phasellus a libero in nibh tincidunt gravida. Nullam tempor sagittis imperdiet. Nullam ultrices porta pharetra. Praesent massa quam, laoreet vitae vulputate eget, viverra at metus. Integer sit amet viverra lectus. Vivamus non augue quis sem faucibus pulvinar nec at turpis. Vestibulum massa mi, blandit ut malesuada a, accumsan et est. In pharetra elit ut nisl convallis congue. Vivamus diam leo, posuere vitae fermentum vel, luctus a justo.</p>
+ 
+		<h2>Nagłówek 2</h2>
+ 
+		<p>Nullam ac arcu id enim fermentum ullamcorper. Donec eget mi velit. Aliquam sit amet enim velit. Proin tempus velit quam. Ut consectetur lectus vitae sapien lobortis pulvinar. Vestibulum tempor ex non posuere malesuada. Curabitur interdum pulvinar mi, nec malesuada odio hendrerit quis.</p>
+ 
+		<h2>Nagłówek 3</h2>
+ 
+		<p>Etiam metus orci, tempus quis mattis in, congue a elit. Praesent bibendum risus ac tellus aliquam, non mollis lectus semper. Pellentesque sit amet orci vel est ultrices tempus. Curabitur id neque eget justo porta imperdiet. Pellentesque eget orci tristique, tincidunt turpis in, faucibus lacus. Ut id urna in lorem sagittis convallis. Etiam tincidunt eros id leo ornare, vel condimentum eros tincidunt. Mauris ac orci elit. Aliquam auctor tempor posuere. Donec at velit sit amet ex porttitor bibendum a ac dui. In hac habitasse platea dictumst. Integer non metus egestas est efficitur vestibulum non in neque. Fusce auctor erat sit amet viverra cursus.</p>
+ 
+		<h2>Nagłówek 4</h2>
+ 
+		<p>Duis dignissim ut dolor ut mattis. Duis posuere tortor et tortor sollicitudin, in convallis velit convallis. Nulla a iaculis sapien. Donec et aliquam leo. Nulla porta magna nec auctor blandit. Duis ut sem non ante fringilla cursus ut quis ante. Duis condimentum consectetur eros, placerat ultrices nulla posuere sit amet. Aenean finibus magna ac quam rhoncus hendrerit. Cras egestas dolor eget gravida pellentesque. Nullam efficitur accumsan nunc. Morbi rhoncus accumsan massa et pellentesque. Morbi non lectus tincidunt, tincidunt ligula vehicula, dignissim neque. Etiam vitae posuere quam, eu consequat tortor. Sed sed elit id nibh dictum convallis. Nam tortor est, sollicitudin vel placerat vel, iaculis non quam.</p>
+ 
+		<h2>Nagłówek 5</h2>
+ 
+		<p>Quisque molestie eros sit amet ex egestas, in bibendum elit pellentesque. Curabitur id congue nulla. Maecenas eleifend viverra massa ac tempus. Etiam porta massa in laoreet efficitur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc ut cursus justo. Aliquam ultricies at est non lacinia. In et lacinia mauris. Sed et commodo eros. Pellentesque viverra rhoncus egestas. Fusce odio arcu, rutrum eget auctor id, euismod sit amet massa. Maecenas maximus arcu odio, non sodales ante placerat ac.</p>
+ 
+	</body>
+</html>
