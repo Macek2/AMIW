@@ -46,15 +46,23 @@ const WeatherCarousel = () => {
         return;
       }
 
-      const dailyData = data.list
-        .filter((item, index) => index % 8 === 0)
+      const now = new Date(); 
+      const filteredData = data.list.filter((forecast) => {
+        const forecastTime = new Date(forecast.dt_txt);
+        return forecastTime >= now;
+      });
+
+      const dailyData = filteredData
+        .filter((_, index) => index % 8 === 0)
         .map((forecast) => ({
           humidity: forecast.main.humidity,
           windSpeed: forecast.wind.speed,
           temperature: Math.floor(forecast.main.temp),
-          location: forecast.name,
+          location: data.city.name,
           date: new Date(forecast.dt_txt).toLocaleDateString("pl-PL", {
             weekday: "long",
+            day: "numeric", 
+            month: "long", 
           }),
           icon: allIcons[forecast.weather[0].icon] || clear_icon,
         }));
