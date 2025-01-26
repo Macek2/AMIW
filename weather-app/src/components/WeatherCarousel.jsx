@@ -8,6 +8,7 @@ import humidity_icon from "../assets/humidity.png";
 import rain_icon from "../assets/rain.png";
 import snow_icon from "../assets/snow.png";
 import wind_icon from "../assets/wind.png";
+import wind_direction_icon from "../assets/wind-direction.png";
 
 const WeatherCarousel = () => {
   const inputRef = useRef();
@@ -29,6 +30,14 @@ const WeatherCarousel = () => {
     "10n": rain_icon,
     "13d": snow_icon,
     "13n": snow_icon,
+  };
+
+  const getWindDirection = (deg) => {
+    const directions = [
+      "N", "NE", "E", "SE", "S", "SW", "W", "NW", "N"
+    ];
+    const index = Math.round(deg / 45) % 8;
+    return directions[index];
   };
 
   const search = async (city) => {
@@ -57,6 +66,7 @@ const WeatherCarousel = () => {
         .map((forecast) => ({
           humidity: forecast.main.humidity,
           windSpeed: forecast.wind.speed,
+          windDirection: getWindDirection(forecast.wind.deg),
           temperature: Math.floor(forecast.main.temp),
           location: data.city.name,
           date: new Date(forecast.dt_txt).toLocaleDateString("pl-PL", {
@@ -118,6 +128,13 @@ const WeatherCarousel = () => {
                       <div>
                         <p>{day.windSpeed} Km/h</p>
                         <span>Prędkość wiatru</span>
+                      </div>
+                    </div>
+                    <div className="col">
+                      <img src={wind_direction_icon} alt="" />
+                      <div>
+                        <p>{day.windDirection}</p>
+                        <span>Kierunek wiatru</span>
                       </div>
                     </div>
                   </div>

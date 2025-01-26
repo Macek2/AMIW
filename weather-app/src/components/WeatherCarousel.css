@@ -111,3 +111,73 @@
     cursor: not-allowed;
   }
   
+  @media (max-width: 768px) {
+    .weather-card {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .weather-icon {
+        width: 80px;
+    }
+
+    .temperature {
+        font-size: 30px;
+    }
+
+    .location {
+        font-size: 30px;
+    }
+
+    .search-bar input {
+        font-size: 16px;
+        height: 40px;
+        padding-left: 15px;
+    }
+
+    .search-bar img {
+        width: 40px;
+        padding: 10px;
+    }
+
+    .arrow {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .weather-card {
+        padding: 10px;
+    }
+
+    .weather-icon {
+        width: 60px;
+    }
+
+    .temperature {
+        font-size: 24px;
+    }
+
+    .location {
+        font-size: 24px;
+    }
+
+    .weather-data {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .search-bar input {
+        font-size: 14px;
+        height: 35px;
+    }
+
+    .search-bar img {
+        width: 35px;
+        padding: 8px;
+    }
+
+    .arrow {
+        font-size: 30px;
+    }
+}
