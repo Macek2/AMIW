@@ -133,7 +133,7 @@ const WeatherCarousel = () => {
                     <div className="col">
                       <img src={wind_direction_icon} alt="" />
                       <div>
-                        <p>{day.windDirection}</p>
+                        <p>{day.windDirection}°</p>
                         <span>Kierunek wiatru</span>
                       </div>
                     </div>
